@@ -1,0 +1,59 @@
+Inicio del Pseudocódigo
+
+Declarar variables y tipos de datos:
+    nombre, cedula: cadena
+    edad: entero
+    clase, viaje, servicioEspecial: entero
+    costo, descuento, costoTotal: real
+    cantidadBoletos, cantidadServiciosEspeciales: entero
+    cantidadPrimeraClase, cantidadSegundaClase, cantidadTerceraClase: entero
+
+Inicializar variables:
+    costoTotal = 0
+    cantidadBoletos = 0
+    cantidadServiciosEspeciales = 0
+    cantidadPrimeraClase = 0
+    cantidadSegundaClase = 0
+    cantidadTerceraClase = 0
+
+Repetir
+    Limpiar pantalla
+    Mostrar menú de opciones
+    Leer opción
+
+    Según la opción seleccionada hacer:
+        Caso '1':
+            Solicitar datos del pasajero: nombre, cédula, edad
+            Aplicar descuento del 10% si el pasajero tiene más de 60 años
+            Solicitar clase de boleto y tipo de viaje
+            Calcular costo del boleto según la clase y el tipo de viaje
+            Solicitar si necesita algún tipo de servicio especial
+            Según el tipo de servicio especial seleccionado hacer:
+                Caso '1':
+                    Incrementar cantidad de servicios especiales
+                    Solicitar tipo de comida especial
+                    Sumar costo de comida especial al costo del boleto
+                Caso '2':
+                    Incrementar cantidad de servicios especiales
+                    Solicitar tipo de asistencia especial
+                    Sumar costo de asistencia especial al costo del boleto
+                Caso '3':
+                    No hacer nada
+            Sumar costo total y cantidad de boletos comprados
+            Incrementar cantidad de boletos según la clase seleccionada
+
+        Caso '2':
+            Mostrar el sistema (opción no implementada en el pseudocódigo)
+
+        Caso '3':
+            Mostrar factura con detalles de la compra:
+                - Nombre, cédula, cantidad de boletos, cantidad de servicios especiales
+                - Cantidad de boletos por clase, costo total
+            Salir del programa
+
+        En caso contrario:
+            Mostrar mensaje de opción no válida
+
+Mientras la opción no sea '3'
+
+Fin del Pseudocódigo
