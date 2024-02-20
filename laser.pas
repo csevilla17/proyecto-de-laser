@@ -1,4 +1,4 @@
-program SistemaBoletos;
+program ventadeboletos;
 
 uses
   crt;
